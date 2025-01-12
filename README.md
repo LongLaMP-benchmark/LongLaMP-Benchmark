@@ -1,12 +1,19 @@
 # Long text Large Language Model Personalization (longLaMP)
 
-Insert description and paper preprint link here
+Large language models (LLMs) have demonstrated remarkable capabilities in text generation tasks, but their performance in personalized long-text generation remains largely unexplored. While recent works have focused on personalization for short-text generation, there is a need for a comprehensive evaluation framework tailored to long-text generation, considering its widespread real-world applications.
+
+LongLaMP aims to fill this gap by providing a benchmark specifically designed to assess the effectiveness of LLMs in generating personalized, long-text outputs. It is a collection of datasets spanning diverse domains, each focused on the challenging task of long-text generation.
+
+If you use the LongLaMP benchmark in your work, please cite: [LongLaMP: Personalized Long-text Generation](https://www.arxiv.org/abs/2407.11016). Thanks!
 
 ### Data
 
-You can download all the datasets from the links provided here. However, we provided the minimal ids to generate the dataset using our codes for the Personalized Email Subject Generation because this dataset is not publicly accessible. Follow the following section to generate that dataset.
+You can download all the datasets from the links provided here:
 
-LaMP 6: Personalized Email Subject Generation (Avocado dataset)
+[LongLaMP Data](https://huggingface.co/datasets/LongLaMP/LongLaMP)
+
+Personalized Email Subject Generation (Avocado dataset):
+
 The Avocado dataset is not publicly accessible. However, we provided the samples' id and the code we used to generate our dataset. Therefore, if you get access to the dataset, you can quickly generate the dataset with the same format as the other datasets in LaMP using the following code:
 
 `python data/avocado/create_avocado_dataset.py \
